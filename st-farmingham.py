@@ -112,6 +112,7 @@ inp = np.array(inp).reshape(1,-1)
 
 if st.button('Predict'):
 	pred = model.predict(inp)
+	st.write(pred)
 	if pred == 0:
 		st.write('You likely will not develop heart disease in the 10 years.')
 	else:
