@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@Created on Thu Mar 29 00:18:39 2018
-@filename: Classification-Template-AnyData
-@dataset: any-data
-@learnings: classification template 
-@includes: stdandard transformatio, feature-selection, over-sampling & cross-val 
-@learnings: comment / uncomment as rqeuired
-@author: cyruslentinsn
-"""
-
 # hides all warnings
 import warnings
 warnings.filterwarnings('ignore')
